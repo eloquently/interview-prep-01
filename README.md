@@ -1,4 +1,6 @@
-This is the testing framework for Eloquently's interview prep series.
+# Part 01 - Counting and Primes
+
+See [guide](https://eloquent.ly/guides/interview-prep-01) for more info.
 
 Tools used:
 
@@ -10,8 +12,9 @@ Install dependencies with:
 npm install
 ```
 
-Run test watcher with:
+Run tests with:
 
 ```
-npm run test:watch
+npm test path/to/file_spec.js
 ```
+

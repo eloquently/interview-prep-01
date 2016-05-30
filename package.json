@@ -1,11 +1,10 @@
 {
-  "name": "interview-prep-framework",
+  "name": "counting-and-primes",
   "version": "1.0.0",
-  "description": "Framework for Eloquently's interview prep exercises",
-  "repository": "https://github.com/eloquently/interview-prep-framework.git",
+  "description": "Interview Prep 01 - Counting and Primes",
+  "repository": "https://github.com/eloquently/interview-prep-01.git",
   "scripts": {
-    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --recursive",
-    "test:watch": "npm run test -- --watch"
+    "test": "node_modules/.bin/mocha --compilers js:babel-core/register --delay --timeout 120000"
   },
   "keywords": [
     "mocha",
